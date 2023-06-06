@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>TEACHFORINDIA</title>
+
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css" />
+
+  <!-- Main css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  
+
+  <div class="main">
+    <div class="container">
+      <div class="badge" id="badgeall">
+        <a href="./login.html">Admin Login Page</a>
+      </div>
+      <form class="appointment-form" id="appointment-form">
+        <h2>Volunteer for Teaching </h2>
+        <div class="form-group-1">
+          <input type="text" name="name" id="name1" placeholder="Your Name" required />
+          <input type="email" name="email" id="email" placeholder="Email" required />
+          <input type="number" name="phone_number" id="phone_number" placeholder="Phone number" required />
+          <input type="text" name="Location" id="location1" placeholder="Location" required />
+          <input type="text" name="language" id="language" placeholder="Spoken Language" required />
+          <div class="select-list">
+            <select name="course_type" id="availability" required>
+              <option slected value="">Availability</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+              <option value="Saturday">Saturday</option>
+              <option value="Sunday">Sunday</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-submit">
+          <input type="submit" name="submit" id="submitbtn" class="submit" value="Request an appointment" />
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/submitbtn.js"></script>
+
+</body>
+
+</html>
